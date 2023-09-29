@@ -1,0 +1,142 @@
+/*Navbar styling*/
+
+.nav-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 100vw;
+}
+
+.nav-item {
+    display: grid;
+    width: 32px;
+    height: 32px;
+}
+
+/*bio styling*/
+
+.bio-container {
+    display: inline-grid;
+    grid-template-columns: auto;
+    width: 100vw;
+    margin-top: 5%;
+}
+
+#profile-image{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.bio-item {
+    display: grid;
+    object-fit: contain;
+    place-self: center;
+    margin: 5% 20% 0% 20%;
+}
+
+/*Tech stack styling*/ 
+
+.tech-stack-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 100vw;
+}
+
+.tech-stack-item-container {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.tech-stack-item-pic {
+    display: grid;
+    width: 8vw;
+    height: 8vh;
+}
+
+.more-skills {
+    background-color: orange;
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* case study styling */
+
+.case-studies-container {
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    width: 100vw;
+}
+
+.case-study-item {
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 8px;
+}
+
+.case-study-img-and-button img {
+    width: 32vw;
+    height: 32vh;
+}
+
+.case-study-img-and-button button {
+    background-color: orange;
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+/*Testimonial styling*/
+
+.testimonial-container {
+    display: inline-grid;
+    grid-template-rows: auto auto auto;
+    width: 100vw;
+}
+
+.testimonial-item {
+    display: inline-grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 8px;
+}
+
+.testimonial-img img{
+    width: 16vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* connect styling */
+
+.icon-container {
+    background-color: #003c4c;
+}
+
+.icon-container strong {
+    color: white;
+    margin: 15px
+}
+
+.icon-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+}
+
+.icon-columns img {
+    width: 10vw;
+    height: 10vh;
+    margin: 20px;
+    filter: invert(100%)
+}
+
+/* footnav styling */
+
+.foot-nav-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5fr;
+    margin: 15px;
+    text-align: center;
+}
